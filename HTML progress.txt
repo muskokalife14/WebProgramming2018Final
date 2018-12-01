@@ -1,0 +1,16 @@
+﻿Web code (✓)
+
+make start page (✓)
+	make date selector (✓)
+	confirm date button (✓)
+make movie selector page (✓)
+	select a movie from a dropdown
+	confirm the movie button
+	select a seat from the available seating in the theatre where the movie is taking place
+	redirects back and forth to other two pages
+make available seating page (✓)
+	literally just reading from the SQL database and printing seats in a table
+	redirects back and forth to other two pages
+make available movies page (✓)
+	Printing a list of pre-made movies
+	redirects back and forth to other two pages
