@@ -2,29 +2,57 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="/css/style.css">
-        <title>Jim's Movies</title>
+        <title>SAND Movies</title>
+        <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
         <style type="text/css">
             html, body {
                 height: 100%;
             }
-    
+
             body {
                 display: table-cell;
                 vertical-align: middle;
-            }
-    
-            html {
-                display: table;
                 margin: auto;
             }
-    
+
+            html {
+                display: table;
+                margin-left: 50px;
+                margin-right: 50px;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+            }
+            p, h1, h3{
+              color: white;
+              font-family: cambria, Helcetica, sans-serif;
+            }
+            p, h3{
+              text-align: center;
+            }
+            h1{
+              font-size: 80px;
+            }
+
         </style>
     </head>
     <body>
-        <h2>Please enter your Date of Birth:</h2>
+
+      <div class="jumbotron text-center">
+        <h1>SAND Movies</h1>
+        <p>Welcome to SAND Movies. We belive in extending the experience of the
+        cinema to viewrs of all ages.</p><br>
+        <p>Est. in 2018, our theatre was created to bring cinema classics
+        to local families in Oshawa Ontario. Working closley with the University of Ontario
+      Institute of Technology, we created a foundation of cinematic culture. </p><br>
+      </div>
+      <div id="date">
+        <h3>Please Select Date:</h3>
+
+
         <div style="text-align:center"><input type="date"></div>
         <br>
         <div style="text-align:center"><input type="button" value="Submit"></div>
+      </div>
     </body>
 </html>
