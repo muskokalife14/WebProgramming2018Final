@@ -25,25 +25,43 @@
         <h1>Please select a movie:</h1>
         <div class="wrapper">
             <select name="Movies" id="movie">
-                <option value="null">Please select a movie...</option>
-                <option value="movie0">70 Jump Street: Dental Hygiene School</option>
-                <option value="movie1">8 Hours of Sleep on Elm Street</option>
-                <option value="movie2">Stan Lee Cameo's: The Movie</option>
-                <option value="movie3">Obligatory Rom-Com: A Horror Film</option>
-                <option value="movie4">Spoon: A 'The Office' Retrospective</option>
+                <span id="movieName">
+                    <option value="null">Please select a movie...</option>
+                    <option value="movie0">70 Jump Street: Dental Hygiene School</option>
+                    <option value="movie1">8 Hours of Sleep on Elm Street</option>
+                    <option value="movie2">Stan Lee Cameo's: The Movie</option>
+                    <option value="movie3">Obligatory Rom-Com: A Horror Film</option>
+                    <option value="movie4">Spoon: A 'The Office' Retrospective</option>
+                </span>
             </select>
         </div>
         <div class="wrapper">
-            <input type="button" value="Confirm Movie" name="submitMovieName" id="submitMovieName">
+            <input type="button" value="Confirm Movie" name="submitMovieName" id="submitMovieName" onClick="document.getElementById('movieTimes').style.visibility='visible', document.getElementById('submitMovieTime').style.visibility='visible';">
+            <!--this onClick should take the information from the previous dropdown and take the requisite information from the sql database-->
         </div>
+
         <br><br>
+
         <div class="wrapper">
-                <select name="MovieTimes" id="movieTimes">
-                    
-                </select>
-            </div>
-            <div class="wrapper">
-                <input type="button" value="Confirm Time" name="submitMovieName" id="submitMovieName">
-            </div>
-    </body>
+            <select name="MovieTimes" id="movieTimes" style="visibility:hidden;">
+                <span id=""></span>
+            </select>
+        </div>
+        <div class="wrapper">
+            <input type="button" value="Confirm Time" name="submitMovieTime" id="submitMovieTime" style="visibility: hidden;" onClick="document.getElementById('movieSeat').style.visibility='visible', document.getElementById('submitSeat').style.visibility='visible';">
+            <!--this onClick should take the information from the previous dropdown and take the requisite information from the sql database-->
+        </div>
+
+        <br><br>
+
+        <div class="wrapper">
+            <select name="SeatNumber" id="movieSeat" style="visibility: hidden;">
+                <span id="seatOptions"></span>
+            </select>
+        </div>
+        <div class="wrapper">
+            <input type="button" value="Confirm Seat" name="SubmitSeat" id="submitSeat" style="visibility: hidden;">
+            <!--This Onclick should make a php call to take the information, validate, and submit to the sql database-->
+        </div>
+</body>
 </html>
