@@ -3,8 +3,47 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="/css/style.css">
+        <title>Jim's Movies</title>
+        <style type="text/css">
+            html, body {
+                height: 100%;
+            }
+    
+            body {
+                display: table-cell;
+                vertical-align: middle;
+            }
+    
+            html {
+                display: table;
+                margin: auto;
+            }
+    
+        </style>
     </head>
     <body>
-        
+        <h1>Please select a movie:</h1>
+        <div class="wrapper">
+            <select name="Movies" id="movie">
+                <option value="null">Please select a movie...</option>
+                <option value="movie0">70 Jump Street: Dental Hygiene School</option>
+                <option value="movie1">8 Hours of Sleep on Elm Street</option>
+                <option value="movie2">Stan Lee Cameo's: The Movie</option>
+                <option value="movie3">Obligatory Rom-Com: A Horror Film</option>
+                <option value="movie4">Spoon: A 'The Office' Retrospective</option>
+            </select>
+        </div>
+        <div class="wrapper">
+            <input type="button" value="Confirm Movie" name="submitMovieName" id="submitMovieName">
+        </div>
+        <br><br>
+        <div class="wrapper">
+                <select name="MovieTimes" id="movieTimes">
+                    
+                </select>
+            </div>
+            <div class="wrapper">
+                <input type="button" value="Confirm Time" name="submitMovieName" id="submitMovieName">
+            </div>
     </body>
 </html>

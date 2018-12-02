@@ -1,0 +1,49 @@
+Jim's Movies
+
+Movie durations:
+    (m0) 70 Jump Street: Dental Hygiene School: 1:45
+    (m1) 8 Hours of Sleep on Elm Street: 1:30
+    (m2) Stan Lee Cameo's: The Movie: 2:00
+    (m3) Obligatory Rom-Com: A Horror Film: 1:30
+    (m4) Spoon: A 'The Office' Retrospective: 1:45
+
+~15 minute intermediary time for cleanup after the movies
+
+(start times/end times in military time)
+Room A
+    0800 - m4 - 0945
+    1000 - m1 - 1130
+    1145 - m2 - 1345
+    1400 - m0 - 1545
+    1600 - m3 - 1730
+
+Room B
+    0815 - m0 - 1000
+    1015 - m2 - 1215
+    1230 - m4 - 1415
+    1430 - m3 - 1600
+    1615 - m1 - 1745
+
+Room C
+    0800 - m3 - 0930
+    0945 - m4 - 1145
+    1200 - m1 - 1330
+    1345 - m2 - 1545
+    1600 - m0 - 1730
+
+
+(Seating)
+Room A
+    Row A:7 seats
+    Row B:6 seats
+    Row C:5 seats
+
+Room B
+    Row A:8 seats
+    Row B:5 seats
+    Row C:2 seats
+
+Room C
+    Row A:3 seats
+    Row B:2 seats
+    Row C:3 seats
